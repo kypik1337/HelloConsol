@@ -1,6 +1,6 @@
 ﻿Console.WriteLine(" Write your Name");
 string username = Console.ReadLine();
-if(username == "Artem")
+if(username.ToLower() == "artem") //ToLower (делает из прописных букв заглавные т.е помогает решить проблему с конкретикою)
     {
         Console.WriteLine("Hi Brooooooo!!!");
     }
